@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ikuti Kami - Landing Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="bgMusic" src="lagunya.MP3" loop preload="auto" playsinline></audio>
+  <button id="musicToggle" class="music-toggle auto-hide" title="Muzik" aria-label="toggle music">🎵</button>
+
+  <div class="bg">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+    <div class="blob blob4"></div>
+  </div>
+  <div class="container">
+    <div class="glass-card">
+      <div class="logo-headline">
+        <img src="LOGO%204%20BROTHERS%20BLUE.jpg" alt="4 Brothers Territory">
+      </div>
+      <div class="mascot-wrap" id="mascotWrap" title="Klik untuk lambaian + meow!">
+        <div class="mascot-shadow"></div>
+        <svg class="cat wedrink-mascot" viewBox="0 0 200 205" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="100" cy="92" rx="72" ry="62" fill="#FFE4EC" opacity="0.35"/>
+          <ellipse cx="100" cy="85" rx="70" ry="62" fill="#FFFFFF" stroke="#FFE0EA" stroke-width="1.5"/>
+          <path d="M100 18 C108 8, 122 6, 128 14 C122 22, 112 28, 102 29 C100 24, 98 20, 100 18 Z" fill="#FFFFFF" stroke="#E8A0B8" stroke-width="1.2"/>
+          <path d="M103 20 C108 13, 118 10, 124 16 C120 21, 112 25, 104 26 Z" fill="#F8C8DA" opacity="0.9"/>
+          <ellipse cx="108" cy="20" rx="9" ry="4" fill="#D98AA8" opacity="0.5"/>
+          <ellipse cx="38" cy="102" rx="18" ry="20" fill="none" stroke="#FF7EB8" stroke-width="6" opacity="0.85"/>
+          <ellipse cx="38" cy="102" rx="9" ry="10" fill="white"/>
+          <ellipse cx="162" cy="102" rx="18" ry="20" fill="none" stroke="#FF7EB8" stroke-width="6" opacity="0.85"/>
+          <ellipse cx="162" cy="102" rx="9" ry="10" fill="white"/>
+          <g class="eyes">
+            <g class="eye-left">
+              <ellipse cx="68" cy="82" rx="22" ry="30" fill="white" stroke="#0F2E2B" stroke-width="2.5"/>
+              <ellipse cx="68" cy="84" rx="15" ry="22" fill="#0F2E2B"/>
+              <circle cx="74" cy="72" r="4.5" fill="white" opacity="0.95"/>
+              <circle cx="65" cy="90" r="2.2" fill="white" opacity="0.7"/>
+            </g>
+            <g class="eye-right">
+              <ellipse cx="132" cy="82" rx="22" ry="30" fill="white" stroke="#0F2E2B" stroke-width="2.5"/>
+              <ellipse cx="132" cy="84" rx="15" ry="22" fill="#0F2E2B"/>
+              <circle cx="138" cy="72" r="4.5" fill="white" opacity="0.95"/>
+              <circle cx="129" cy="90" r="2.2" fill="white" opacity="0.7"/>
+            </g>
+          </g>
+          <path d="M88 108 C88 116, 96 122, 100 122 C104 122, 112 116, 112 108 C104 110, 96 110, 88 108 Z" fill="#FF4D7A"/>
+          <path d="M92 109 Q100 114 108 109" stroke="#C8003A" stroke-width="1" fill="none" opacity="0.3"/>
+          <ellipse cx="100" cy="118" rx="7" ry="4" fill="#FF8BAD" opacity="0.9"/>
+          <ellipse cx="52" cy="112" rx="8" ry="5" fill="#FFB6D9" opacity="0.5"/>
+          <ellipse cx="148" cy="112" rx="8" ry="5" fill="#FFB6D9" opacity="0.5"/>
+          <path d="M48 132 C48 132, 38 156, 48 174 C62 188, 138 188, 152 174 C162 156, 152 132, 152 132 Z" fill="#FF0A3D"/>
+          <ellipse cx="100" cy="148" rx="52" ry="15" fill="#FF0A3D"/>
+          <text x="100" y="152.5" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="800" font-size="13" fill="white" letter-spacing="0.08em" style="paint-order: stroke; stroke: rgba(0,0,0,0.18); stroke-width: 2.2px; stroke-linejoin: round;">WEDRINK</text>
+          <text x="100" y="165" text-anchor="middle" font-family="Outfit, sans-serif" font-weight="800" font-size="9.5" fill="white" letter-spacing="0.12em" opacity="0.98" style="paint-order: stroke; stroke: rgba(0,0,0,0.18); stroke-width: 1.8px; stroke-linejoin: round;">4BROTHERS</text>
+          <ellipse cx="60" cy="150" rx="20" ry="22" fill="#FF0A3D"/>
+          <ellipse cx="52" cy="165" rx="14" ry="12" fill="white"/>
+          <ellipse cx="52" cy="165" rx="8" ry="6" fill="#FFF5F7"/>
+          <ellipse cx="78" cy="188" rx="24" ry="13" fill="white" stroke="#FFE0EA" stroke-width="1"/>
+          <ellipse cx="122" cy="188" rx="24" ry="13" fill="white" stroke="#FFE0EA" stroke-width="1"/>
+          <ellipse cx="100" cy="192" rx="44" ry="9" fill="white" opacity="0.8"/>
+          <g class="arm-wave">
+            <ellipse cx="140" cy="148" rx="22" ry="24" fill="#FF0A3D"/>
+            <ellipse cx="156" cy="120" rx="19" ry="17" fill="white" stroke="#FFE0EA" stroke-width="1.3"/>
+            <ellipse cx="150" cy="109" rx="8.5" ry="9.5" fill="white" stroke="#FFE0EA" stroke-width="1"/>
+            <ellipse cx="160" cy="107" rx="7.5" ry="8.5" fill="#FFF5F7" stroke="#FFE0EA" stroke-width="0.8"/>
+            <ellipse cx="166" cy="118" rx="6.5" ry="7.5" fill="white" stroke="#FFE0EA" stroke-width="1"/>
+            <ellipse cx="153" cy="124" rx="6" ry="4" fill="#FFF0F5" opacity="0.8"/>
+          </g>
+        </svg>
+        <div class="click-hint">JOM KLIK SINI!</div>
+      </div>
+      <h1 class="follow-text headline">
+        <span class="line line-top">
+          <span class="solid">FOLLOW</span> <span class="solid">KAMI</span>
+        </span>
+        <span class="line line-bottom">
+          <span class="pill">SEBELUM BELI</span>
+        </span>
+      </h1>
+      <p class="subtitle">Temui keseronokan di media sosial kami</p>
+      <div class="btn-row">
+        <button class="glass-btn instagram" id="btnInstagram">
+          <span class="btn-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="6" stroke="white" stroke-width="1.8"/><circle cx="12" cy="12" r="5" stroke="white" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1.5" fill="white"/></svg></span>
+          <span class="btn-label">Instagram</span>
+          <span class="btn-count" id="igCount">JOM FOLLOW!</span>
+          <span class="btn-arrow">→</span>
+        </button>
+        <button class="glass-btn tiktok" id="btnTiktok">
+          <span class="btn-icon"><svg width="20" height="22" viewBox="0 0 24 24" fill="white"><path d="M16.6 5.82A4.28 4.28 0 0113.9 4h-2.95v12.4a2.59 2.59 0 01-2.6 2.5 2.59 2.59 0 01-2.6-2.5 2.59 2.59 0 012.6-2.5c.27 0 .54.04.79.1V9a6.57 6.57 0 00-.79-.05 6.48 6.48 0 00-6.4 6.5A6.48 6.48 0 008.05 22a6.48 6.48 0 006.5-6.5V9.36a8.28 8.28 0 004.8 1.54V7.9a4.28 4.28 0 01-2.75-2.08z"/></svg></span>
+          <span class="btn-label">TikTok</span>
+          <span class="btn-count">JOM FOLLOW!</span>
+          <span class="btn-arrow">→</span>
+        </button>
+      </div>
+      <p class="footer-note">Sokong kami dengan follow media sosial kami. Terima kasih!</p>
+    </div>
+    <footer class="copyright-footer">
+      <a href="https://www.instagram.com/maxadamn/" target="_blank" rel="noopener" class="footer-shape">
+        <span class="made-text">made with <span class="heart-neon">♥</span> by</span>
+        <span class="neon-link">@maxadamn</span>
+      </a>
+    </footer>
+  </div>
+  <div class="modal" id="modalInstagram">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <div class="modal-head">
+        <h2><span class="mini-icon insta"></span> Akaun Instagram</h2>
+        <button class="close" data-close="modalInstagram">✕</button>
+      </div>
+      <div class="modal-search">
+        <div class="search-wrap">
+          <span class="search-icon">⌕</span>
+          <input type="text" id="searchInstagram" class="search-input" placeholder="Cari akaun... cth: beluran" autocomplete="off">
+          <button class="search-clear" id="clearInstagram" aria-label="clear search">✕</button>
+        </div>
+        <div class="search-count" id="countInstagram"></div>
+      </div>
+      <div class="account-grid" id="gridInstagram"></div>
+    </div>
+  </div>
+  <div class="modal" id="modalTiktok">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <div class="modal-head">
+        <h2><span class="mini-icon tiktok"></span> Akaun TikTok — 15 Akaun</h2>
+        <button class="close" data-close="modalTiktok">✕</button>
+      </div>
+      <div class="modal-search">
+        <div class="search-wrap">
+          <span class="search-icon">⌕</span>
+          <input type="text" id="searchTiktok" class="search-input" placeholder="Cari akaun... cth: beluran" autocomplete="off">
+          <button class="search-clear" id="clearTiktok" aria-label="clear search">✕</button>
+        </div>
+        <div class="search-count" id="countTiktok"></div>
+      </div>
+      <div class="account-grid" id="gridTiktok"></div>
+    </div>
+  </div>
+  <div class="sound-badge" id="soundBadge">👋 hai!</div>
+<script src="script.js"></script>
+</body>
+</html>
